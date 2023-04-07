@@ -9,26 +9,30 @@ h1{
 }
 
 body{
-    background-image: linear-gradient(to right,#CEE5F2, #536B78  )
+    background-image: linear-gradient(to right,#CEE5F2, #536B78 )
 }
 
 p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #ACCBE1;
     padding: 1rem;
 }
 
 li{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     padding: .5rem;
     background-color:#ACCBE1;
-    box-shadow: 5px 5px 10px #000;
+    box-shadow: 2px 2px 5px #000;
+    margin: .2rem;
 }
 
 #photoId{
     margin: 1rem;
     width: 12rem;
+    border: .1rem solid black;
+    outline: .1rem solid #536B78;
+    border-radius: 16px;
 
     
 }
@@ -40,7 +44,37 @@ li{
     align-items: center;
     justify-content: space-around;
     box-shadow: 10px 10px 20px #000;
-    
-    
 }
 
+a{
+    color: white;
+    padding: .3rem;
+    margin: .2rem;
+    background-color: #536B78;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+a:hover{
+    color: #CEE5F2;
+    transform: scale(1.3);
+}
+
+
+#pageNavigationLinks{
+    display: block;
+    display: flex;
+    justify-content: right;
+}
+
+.iconContainer{
+    background-color: white;
+    border-radius: 25%;
+    height: 30px;
+    width: 30px;
+
+}
+
+.iconContainer{
+    background-color: transparent;
+}
