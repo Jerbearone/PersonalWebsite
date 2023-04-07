@@ -9,7 +9,7 @@ h1{
 }
 
 body{
-    background-color: #CEE5F2;
+    background-image: linear-gradient(to right,#CEE5F2, #536B78  )
 }
 
 p{
@@ -22,12 +22,12 @@ li{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: white;
     padding: .5rem;
-    background-color:#ACCBE1
+    background-color:#ACCBE1;
+    box-shadow: 5px 5px 10px #000;
 }
 
 #photoId{
     margin: 1rem;
-    display: flex;
     width: 12rem;
 
     
@@ -39,5 +39,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 10px 10px 20px #000;
+    
+    
 }
 
