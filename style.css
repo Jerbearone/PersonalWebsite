@@ -1,0 +1,43 @@
+/*colors: CEE5F2 ACCBE1 7C98B3 637081 536B78  */
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    background-color: #7C98B3;
+    color: white;
+}
+
+body{
+    background-color: #CEE5F2;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ACCBE1;
+    padding: 1rem;
+}
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    padding: .5rem;
+    background-color:#ACCBE1
+}
+
+#photoId{
+    margin: 1rem;
+    display: flex;
+    width: 12rem;
+
+    
+}
+
+#homeMainTextId{
+    background-color: #ACCBE1;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
