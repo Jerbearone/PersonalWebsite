@@ -72,9 +72,18 @@ a:hover{
     border-radius: 25%;
     height: 30px;
     width: 30px;
+    background-color: transparent;
 
 }
 
-.iconContainer{
+.socialMediaLinks{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#linkedInIcon{
     background-color: transparent;
 }
