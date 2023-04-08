@@ -1,1 +1,4 @@
-console.log("Hello world!")
+window.onload = function (){ 
+    console.log("Hello world!")
+}
+
