@@ -9,7 +9,6 @@
     <script src="./javascript.js"></script>
 </head>
 <body>
-
     <header>
         <h1>Contact</h1>
         <div id="pageNavigationLinks">
@@ -18,26 +17,21 @@
             <a href="./porfolio.html">Portfolio</a>
             <a href="./contact.html">Contact</a>
         </div>
-
     </header>
-
     <section id="contactIntroSection">
-        <p>If you would like to get in touch with me, please fill out the form here.</p>
+        <p>If you would like to get in touch with me, please email me here.</p>
     </section>
     <section id="formSection">
-        <form id="contactForm" action="">
-            <label  for="fName">First Name</label>
-            <input type="text"><br>
-            <label for="lName">Last Name</label>
-            <input type="text"><br>
-            <label for="email">Email</label>
-            <input type="email"><br>
-            <input id="submitButton" type="submit" name="submit" value="Submit">
+        <form method="post" type="email" name="_replyto" id="contactForm" action="https://formspree.io/f/mnqkwyzl">
+            <label>Email</label>
+            <input type="email" name="_replyto">
+            <label>Message</label>
+            <textarea name="body"></textarea>
+            <br>
+            <input type="submit" value="Send">
+            <br>
         </form>
-
     </section>
-
-
     <footer>
         <section class="socialMediaLinks">
             <a class="iconContainer" href="https://github.com/jerbearone" >
@@ -46,9 +40,7 @@
             <a id="linkedInIcon" href="https://www.linkedin.com/in/jerry-parker-39914719a/">
                 <img class="iconContainer" src="./images/LI-In-Bug.png" alt="LinkedIn">
             </a>
-              
         </section>
     </footer>
-    
 </body>
 </html>
