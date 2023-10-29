@@ -1,4 +1,3 @@
 # PersonalWebsite
 
-This project is a personal Portfolio for Jerry.
-Jerry is currently attending Fullstack Academy and will update this in the future.
+Personal website to display projects, and skills acquired throughout my software development experience.
