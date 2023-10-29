@@ -33,8 +33,6 @@ li{
     border: .1rem solid black;
     outline: .1rem solid #536B78;
     border-radius: 16px;
-
-    
 }
 
 #homeMainTextId{
@@ -44,6 +42,7 @@ li{
     align-items: center;
     justify-content: space-around;
     box-shadow: 10px 10px 20px #000;
+    border-radius: .5rem;
 }
 
 a{
